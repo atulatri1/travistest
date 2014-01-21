@@ -3,6 +3,9 @@ php:
   - "5.4"
 before_install:
   - cd ..
+  - pwd
+  - ls
   - git clone https://atulatri@github.com/atulatri1/build
   - cd build
+  - pwd
   - php composer.php
