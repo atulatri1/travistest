@@ -8,4 +8,4 @@ before_install:
   - git clone https://atulatri@github.com/atulatri1/build
   - cd build
   - pwd
-  - php composer.php
+  - php composer.php 2>$1
