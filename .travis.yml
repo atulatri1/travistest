@@ -8,9 +8,6 @@ before_install:
   - git clone https://atulatri@github.com/atulatri1/build
   - cd build
   - pwd
-  - ls
   - whereis php
-  - php -r "echo 'test';"
-  - /usr/bin/php -r "echo 'test2';"
   - chmod +x composer.php
-  - ./composer.php
+  - php composer.php
