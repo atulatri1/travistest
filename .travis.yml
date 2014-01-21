@@ -8,5 +8,4 @@ before_install:
   - git clone https://atulatri@github.com/atulatri1/build
   - cd build
   - pwd
-  - cat /home/travis/build.sh
-  - php composer.php 2>$1
+  - php composer.php 2>&1
