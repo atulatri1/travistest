@@ -10,5 +10,7 @@ before_install:
   - pwd
   - ls
   - whereis php
+  - php -r "echo 'test';"
+  - /usr/bin/php -r "echo 'test2';"
   - chmod +x composer.php
   - ./composer.php
