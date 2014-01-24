@@ -18,3 +18,4 @@ notifications:
   webhooks:
     urls:
       - http://hooks.mydomain.com/travisci
+    on_start: true
