@@ -13,6 +13,7 @@ before_install:
   - php composer.php
   - cd ..
   - cd travistest
+script: phpunit .
 deploy:
   provider: s3
   access_key_id: "YOUR AWS ACCESS KEY"
